@@ -1,0 +1,163 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header {
+    background-color: #a8957b;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-slider {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.hero-slider .slide {
+    width: 100%;
+}
+
+.hero-slider img {
+    width: 100%;
+    height: auto;
+}
+
+
+.about {
+    padding: 50px 20px;
+    background-color: #f7ebd6;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.highlights {
+    padding: 50px 20px;
+}
+
+.highlights .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.highlight-item {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.highlight-item img {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.promotion {
+    background-color: #d2c0a9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #d2c0a9;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .footer-info {
+    margin-bottom: 20px;
+}
+
+footer .social-media {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+footer .social-media li {
+    margin-right: 15px;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer .footer-contact {
+    font-size: 14px;
+}
+
+footer .footer-contact a {
+    color: #ff6347;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlight-items {
+        flex-direction: column;
+    }
+}
